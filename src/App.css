@@ -1,5 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+:root {
+  --bg-container: #041B3C;
+  --bg-accent: #010F23;
+
+}
 .App {
   text-align: center;
+  background-color: var(--bg-container);
+  background-image: url('./assets/wave.svg');
+  background-repeat: no-repeat;
+  background-position: bottom;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 
 .App-logo {
